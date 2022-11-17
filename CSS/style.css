@@ -229,11 +229,25 @@ header {
     padding-top: 50px;
 }
 
-.am-icon-row {
+/* .am-icon-row {
     max-width: 1150px;
-}
+} */
 
 .am-text {
     font-size: 20px;
     font-weight: bold;
+}
+
+.am-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 80px;
+}
+
+.am-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 30px;
 }
