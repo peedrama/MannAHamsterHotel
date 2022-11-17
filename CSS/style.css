@@ -274,3 +274,41 @@ header {
     color: #FFFFFF;
     padding-top: 25px;
 }
+
+.form-col {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: start;
+}
+
+input, select {
+    height: 38px;
+    width: 177px;
+}
+
+.res-btn {
+    border-radius: 0;
+    background-color: #006EDB;
+    color: #FFFFFF;
+    border: 1px;
+    border-color: #000DC7;
+    height: 38px;
+    width: 177px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-cont {
+    max-width: 975px;
+}
+
+.form-text {
+    color: #E5FEFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    height: 12px;
+}
+
+.form-text-row {
+    margin-top: -30px;
+}

@@ -224,7 +224,47 @@
             <div class="row res-header">
                 <h2 class="text-center dosis">Reserve a Room</h2>
             </div>
-            <div class="row"></div>
+            <div class="container-fluid form-cont">
+
+                <div class="row g-0 form-text-row">
+                    <div class="col">
+                        <p class="form-text">Check-in</p>
+                    </div>
+                    <div class="col">
+                        <p class="form-text">Check-out</p>
+                    </div>
+                    <div class="col">
+                        <p class="form-text">Number of Guests</p>
+                    </div>
+                    <div class="col">
+                        <p class="form-text">Room type</p>
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row g-0">
+                    <div class="col form-col">
+                        <input type="date" value="2022-11-18" />
+                    </div>
+                    <div class="col form-col">
+                        <input type="date" value="2022-11-28" />
+                    </div>
+                    <div class="col form-col">
+                        <input type="number" value="1" id="quantity" name="quantity" min="1" max="10" step="1">
+                    </div>
+                    <div class="col form-col">
+                        <select name="rooms" id="cars">
+                            <option value="queen">Queen Room</option>
+                            <option value="king">King Room</option>
+                            <option value="beach">Beach Suite</option>
+                        </select>
+                    </div>
+                    <div class="col form-col">
+                        <button type="button" class="btn btn-primary res-btn">Check Availability</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="row res-img">
 
