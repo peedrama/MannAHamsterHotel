@@ -15,6 +15,7 @@ h1 {
 
 p {
     font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
@@ -47,6 +48,7 @@ li {
 
 .nav {
     background-color: #000324;
+    height: 120px;
 }
 
 .nav-link {
@@ -187,11 +189,26 @@ header {
 .packages {
     background-color: antiquewhite;
     height: 969px;
-    width: 1137px;
+    max-width: 1145px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .pack-img {
     height: 234px;
     width: 561px;
-    object-fit: scale-up;
+    object-fit: cover;
+    object-position: 50% 10%;
 }
+
+/* .pack-col-left {
+
+    padding-right: 7px;
+    max-width: 561px;
+}
+
+.pack-col-right {
+    padding-left: 7px;
+
+    max-width: 561px;
+} */
