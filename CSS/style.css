@@ -251,3 +251,26 @@ header {
     align-items: flex-end;
     padding-top: 30px;
 }
+
+.reserve {
+    height: 721px;
+    max-width: 1137px;
+}
+
+.res-form {
+    background-color: #000324;
+    height: 207px;
+    margin-top: 101px;
+}
+
+.res-img {
+    height: 414px;
+    background-image: url("../assets/hamsterreserve.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+.res-header {
+    color: #FFFFFF;
+    padding-top: 25px;
+}
