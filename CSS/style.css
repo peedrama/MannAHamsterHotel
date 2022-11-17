@@ -216,3 +216,24 @@ header {
 
     max-width: 561px;
 }
+
+.amenities {
+    height: 548px;
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #FFFFFF;
+}
+
+.am-head {
+    padding-top: 50px;
+}
+
+.am-icon-row {
+    max-width: 1150px;
+}
+
+.am-text {
+    font-size: 20px;
+    font-weight: bold;
+}
