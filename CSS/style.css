@@ -1,0 +1,187 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Source+Sans+Pro&display=swap');
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.source-sans {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h5 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+
+li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.header-title {
+    /* padding-top: 10px; */
+}
+
+.header-text {
+    /* padding-top: 10px; */
+}
+
+.nav {
+    background-color: #000324;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+    outline: #E5FEFF solid 1px;
+    outline-offset: -7px;
+    /* margin: -1px; */  
+}
+
+.nav-nohover:hover {
+    outline: none;
+}
+
+/* .hero {
+    background-image: url("./assets/pool.png");
+    height: 10rem;
+} */
+
+.header {
+    /* width: 100%; */
+    height: 31.25rem;
+    object-fit: cover;
+    object-position: 50% 55%;
+}
+
+/* .container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+} */
+
+
+/* Don't need this- header box overrides */
+/* .header-text {
+    text-align: center;
+    color: #FFFFFF;
+} */
+
+header {
+    height: 31.25rem;
+    background-image: url("../assets/header.jpg");
+    background-size: cover;
+    background-position: 50% 55%;
+}
+
+.header-box {
+    height: 14.5rem;
+    width: 59.0625rem;
+    background-color: rgba(0, 3, 36, .8);
+    color: #E5FEFF;
+}
+
+.overview {
+    background-color: beige;
+    height: 38.5rem; 
+}
+
+.ov-img {
+    height: 416px;
+    width: 369px;
+    object-fit: cover;
+}
+
+.ov-text {
+    padding-right: 10px;
+    margin-top: 25px;
+}
+
+.overview-box {
+    width: 768.5px;
+    height: 416px;
+    background-color: aqua;
+}
+
+.award {
+    width: 200px;
+    height: fit-content;
+}
+
+.awards {
+    margin-bottom: -50px;
+}
+
+#ov-col-2 {
+    padding-left: 14px;
+}
+
+.rooms {
+    height: 738px;
+    background-image: url("../assets/bg2.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#rooms-text {
+    color: white;
+    padding-top: 31px;
+    padding-bottom: 29px;
+    text-align: center;
+}
+
+.card-container {
+    width: 1155px;
+}
+
+.card {
+    height: 522px;
+    width: 369px;
+    border-radius: 0px;
+    border: none;
+}
+
+.card-img-top {
+    height: 190px;
+    border-radius: 0;
+    object-fit: none;
+}
+
+.card-btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 0;
+    background-color: #004CC7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.packages {
+    background-color: antiquewhite;
+    height: 969px;
+    width: 1137px;
+}
+
+.pack-img {
+    height: 234px;
+    width: 561px;
+    object-fit: scale-up;
+}
