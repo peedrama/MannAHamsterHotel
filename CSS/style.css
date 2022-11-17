@@ -194,6 +194,10 @@ header {
     padding-right: 0;
 }
 
+.pack-head {
+    padding-top: 110px;;
+}
+
 .pack-img {
     height: 234px;
     width: 561px;
@@ -201,14 +205,14 @@ header {
     object-position: 50% 10%;
 }
 
-/* .pack-col-left {
+.pack-col-left {
 
-    padding-right: 7px;
+    margin-right: 7.5px;
     max-width: 561px;
 }
 
 .pack-col-right {
-    padding-left: 7px;
+    margin-left: 7.5px;
 
     max-width: 561px;
-} */
+}
