@@ -117,7 +117,7 @@ header {
 
 .overview {
     /* background-color: beige; */
-    height: 38.5rem; 
+    min-height: 38.5rem; 
 }
 
 .ov-img {
@@ -364,7 +364,7 @@ footer {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     input, select, .res-btn {
         max-width: 125px;
     }
@@ -374,7 +374,7 @@ footer {
     }
 
     .header-box {
-        max-width: 650px;
+        max-width: 75vw;
     }
 
     .pack-row {
@@ -388,6 +388,28 @@ footer {
 
     .am-bottom {
         min-height: 50px;
+    }
+
+    .pack-col-right, .pack-col-left {
+        margin: auto;
+    }
+
+    .ov-img {
+        width: 75vw;
+        height: 25vw;
+    }
+
+    .hide-1200 {
+        display: block;
+    }
+
+    .carousel {
+        width: 75vw;
+        
+    }
+
+    .rooms {
+        min-height: 0;
     }
 }
 
