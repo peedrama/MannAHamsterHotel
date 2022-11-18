@@ -282,13 +282,13 @@ header {
 }
 
 .reserve {
-    height: 721px;
+    min-height: 721px;
     max-width: 1137px;
 }
 
 .res-form {
     background-color: #000324;
-    height: 207px;
+    min-height: 207px;
     margin-top: 101px;
 }
 
@@ -408,11 +408,51 @@ footer {
         
     }
 
-    .rooms {
+    .rooms, .overview, .reserve {
         min-height: 0;
+    }
+
+    .reserve {
+        max-width: none;
+    }
+
+    .res-form {
+        margin-top: 0;
+    }
+
+    .carousel-caption {
+        background: rgba(0, 0, 0, 0.55);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+    .pack-img-1, .pack-img-2, .pack-img-3 {
+        width: 75vw;
+    }
 
+    .pack-col-left, .pack-col-right{
+        width: 75vw;
+    }
+
+    .form-cont {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    
+    /* .pack-img-1, .pack-img-2, .pack-img-3 {
+        width: 90vw;
+    }
+
+    .header-box, .ov-img, .carousel {
+        width: 90vw;
+    }
+
+    .pack-col-left, .pack-col-right{
+        width: 90vw;
+    } */
 }
