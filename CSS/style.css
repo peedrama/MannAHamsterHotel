@@ -84,7 +84,7 @@ li {
 
 .header {
     /* width: 100%; */
-    height: 31.25rem;
+    min-height: 31.25rem;
     object-fit: cover;
     object-position: 50% 55%;
 }
@@ -363,10 +363,14 @@ footer {
     padding-top: 24px;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 @media (max-width: 1199px) {
     input, select, .res-btn {
-        max-width: 125px;
+        max-width: 145px;
     }
 
     .res-btn {
@@ -391,7 +395,7 @@ footer {
     }
 
     .pack-col-right, .pack-col-left {
-        margin: auto;
+        margin: 0;
     }
 
     .ov-img {
@@ -423,6 +427,19 @@ footer {
     .carousel-caption {
         background: rgba(0, 0, 0, 0.55);
     }
+
+    .tab-text {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+
+    .tab-top-pad {
+        padding-top: 10vw;
+    }
+
+    .tab-bot-pad {
+        padding-bottom: 10vw;
+    }
 }
 
 @media (max-width: 767px) {
@@ -439,11 +456,29 @@ footer {
         justify-content: center;
     }
 
+    header {
+        min-height: none;
+    }
 }
 
 @media (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
 
-    
+    .form-text-row {
+        padding-left: 15vw;
+        padding-top: 30px;
+    }
+
+    .form-text-fix {
+        margin-top: -20px;
+    }
+
+    .form-col {
+        padding-bottom: 15px;
+    }
+
     /* .pack-img-1, .pack-img-2, .pack-img-3 {
         width: 90vw;
     }
@@ -455,4 +490,18 @@ footer {
     .pack-col-left, .pack-col-right{
         width: 90vw;
     } */
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .carousel {
+        width: 85vw;
+    }
 }
