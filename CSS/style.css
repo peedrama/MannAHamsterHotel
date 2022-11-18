@@ -151,7 +151,7 @@ header {
 }
 
 .rooms {
-    height: 738px;
+    min-height: 738px;
     background-image: url("../assets/bg2.jpg");
     background-size: cover;
     background-position: 50% 50%;
@@ -197,7 +197,7 @@ header {
 
 .packages {
     /* background-color: antiquewhite; */
-    height: 969px;
+    min-height: 969px;
     max-width: 1145px;
     padding-left: 0;
     padding-right: 0;
@@ -247,7 +247,7 @@ header {
 }
 
 .amenities {
-    height: 548px;
+    min-height: 548px;
     background-image: url("../assets/bg.jpg");
     background-size: cover;
     background-position: 50% 50%;
@@ -361,4 +361,36 @@ footer {
 
 .foot-img {
     padding-top: 24px;
+}
+
+
+@media (max-width: 1200px) {
+    input, select, .res-btn {
+        max-width: 125px;
+    }
+
+    .res-btn {
+        font-size: 11px;
+    }
+
+    .header-box {
+        max-width: 650px;
+    }
+
+    .pack-row {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .icon-text {
+        display: none;
+    }
+
+    .am-bottom {
+        min-height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
 }
