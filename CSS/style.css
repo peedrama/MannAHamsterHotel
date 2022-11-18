@@ -368,6 +368,10 @@ html, body {
     overflow-x: hidden;
 }
 
+.navbar {
+    background-color: #000324;
+}
+
 @media (max-width: 1199px) {
     input, select, .res-btn {
         max-width: 145px;
@@ -458,6 +462,14 @@ html, body {
 
     header {
         min-height: none;
+    }
+
+    navbar {
+        display: none;
+    }
+
+    .nav-link:hover {
+        outline: none;
     }
 }
 
