@@ -18,6 +18,10 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.blue-text {
+    color: #1F51A8;
+}
+
 h2 {
     font-size: 35px;
 }
@@ -107,7 +111,7 @@ header {
 }
 
 .overview {
-    background-color: beige;
+    /* background-color: beige; */
     height: 38.5rem; 
 }
 
@@ -125,7 +129,7 @@ header {
 .overview-box {
     width: 768.5px;
     height: 416px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .award {
@@ -187,7 +191,7 @@ header {
 }
 
 .packages {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     height: 969px;
     max-width: 1145px;
     padding-left: 0;
@@ -195,15 +199,35 @@ header {
 }
 
 .pack-head {
-    padding-top: 110px;;
+    padding-top: 110px;
+    padding-bottom: 15px;
 }
 
-.pack-img {
+.pack-subhead {
+    padding-top: 20px;
+}
+
+.pack-img-1 {
     height: 234px;
     width: 561px;
     object-fit: cover;
     object-position: 50% 10%;
 }
+
+.pack-img-2 {
+    height: 234px;
+    width: 561px;
+    object-fit: cover;
+    object-position: 50% 32%;
+}
+
+.pack-img-3 {
+    height: 234px;
+    width: 561px;
+    object-fit: cover;
+    object-position: 50% 72%;
+}
+
 
 .pack-col-left {
 
@@ -311,4 +335,25 @@ input, select {
 
 .form-text-row {
     margin-top: -30px;
+}
+
+footer {
+    height: 300px;
+    background-color: #000324;
+}
+
+.foot-text-1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #E5FEFF;
+    padding-top: 26px;
+}
+
+.foot-text-2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #E5FEFF;
+    padding-top: 5px;
+}
+
+.foot-img {
+    padding-top: 24px;
 }
