@@ -72,6 +72,11 @@ li {
     outline: none;
 }
 
+.navbar-default .navbar-right > li > a:visited
+{ 
+    color: #FFFFFF;
+} 
+
 /* .hero {
     background-image: url("./assets/pool.png");
     height: 10rem;
