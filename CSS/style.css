@@ -180,6 +180,7 @@ header {
     height: 190px;
     border-radius: 0;
     object-fit: none;
+    object-position: 30% 50%;
 }
 
 .card-btn {
@@ -399,7 +400,7 @@ html, body {
     }
 
     .pack-col-right, .pack-col-left {
-        margin: 0;
+        margin: 10px;
     }
 
     .ov-img {
